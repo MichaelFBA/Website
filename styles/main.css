@@ -1,0 +1,22 @@
+body, html{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+a{
+    color: #ff5252;
+}
+
+/* Theme */
+.black-theme{
+    background: #222;
+    color: #fff;
+    fill: #fff;
+}

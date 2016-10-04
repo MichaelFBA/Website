@@ -1,0 +1,36 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+
+<dom-module id="top-navigation">
+    <!-- include classes in the main document -->
+    <style is="custom-style" include="iron-flex iron-flex-alignment"></style>
+
+    <template>
+        <style>
+            #nav {
+                border-bottom: 1px solid rgba(255,255,255,.25);
+                padding: 25px;
+            }
+        </style>
+        <header id="nav" class="layout horizontal end-justified">
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+        </header>
+    </template>
+
+    <script>
+        Polymer({
+
+            is: 'top-navigation',
+
+            properties: {
+                prop1: {
+                    type: String,
+                    value: 'Navigation',
+                },
+            },
+
+        });
+    </script>
+</dom-module>

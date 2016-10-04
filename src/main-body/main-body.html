@@ -1,0 +1,48 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+
+<dom-module id="main-body">
+
+    <template>
+        <style>
+            .is-bordered-thick{
+                border-top: 2px solid rgba(255,255,255,.25);
+            }
+            .is-bordered-thin{
+                border-top: 1px solid rgba(255,255,255,.25);
+            }
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 is-bordered-thick">
+                    <h1>Hello I am Michael Bell</h1>
+                </div>
+
+                <div class="col-xs-12 col-sm-3 is-bordered-thin">
+                    <h1>Introduction</h1>
+                    <h2>Introduction</h2>
+                    <h3>Introduction</h3>
+                    <h4>Introduction</h4>
+                    <h5>Introduction</h5>
+                    <h6>Introduction</h6>
+                    <p>Julieta is a graphic designer and owner of ZkySky, a design studio which she co-founded in 1989 after earning a degree in Typeface Design. She lives and works in Montserrat, the first and oldest neighborhood in Buenos Aires. Julieta admires many type designers including Harald Geisler, and fellow Argentines Juan Pablo del Peral and Alejandro Paul. She is currently developing new variants of Montserrat—italics, plus new weights and styles—and dreams that it will soon become a large, extended family.</p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+
+            is: 'main-body',
+
+            properties: {
+                prop1: {
+                    type: String,
+                    value: 'Navigation',
+                },
+            },
+
+        });
+    </script>
+</dom-module>
